@@ -2,16 +2,8 @@ import React, { useEffect, useState } from "react";
 import MovieCard from "./MovieCard";
 import SearchIcon from "./image/search.svg";
 import "./App.css";
-//'https://www.omdbapi.com/?apikey=95e77740'
-const API_URL = 'https://www.omdbapi.com/?apikey=95e77740'; 
 
-// const movie1 = {
-//     "Title": "Shrek",
-//     "Year": "2012",
-//     "imdbID": "tt2586634",
-//     "Type": "movie",
-//     "Poster": "N/A",
-// }
+const API_URL = 'http://www.omdbapi.com/?apikey=95e77740'; 
 
 const App = () => {
     const [movies , setMovies] = useState([]);
